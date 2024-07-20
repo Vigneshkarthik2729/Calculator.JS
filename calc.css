@@ -1,0 +1,40 @@
+*{
+    background-color: rgb(131, 236, 236);
+}
+.container{
+    margin: 50px;
+    padding-left: 35%;
+    padding-top: 5%;    
+    
+}
+
+.container-1{
+    border: 2px solid blueviolet;
+    border-radius: 15px;
+    background-color: blueviolet;
+    height: 300px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 20px black;
+}
+
+h2{
+    color: white;
+    font-style: italic;
+    background-color: blueviolet;  
+}
+
+.grid{
+    display: grid;
+    grid-template-areas: "7 8 9 /"
+         "4 5 6 *"
+         "1 2 3 -"
+         "0 . = +"
+         "r r r r";
+         grid-template-columns: 40px 40px 40px 50px;
+     grid-template-rows: 30px 30px 30px 30px 40px; 
+     justify-content: center;
+     gap : 5px;
+     background-color: blueviolet;
+}
+
